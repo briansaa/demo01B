@@ -19,6 +19,9 @@ namespace demo01B
 
             persona persona1 = new persona("viper", "saa");
             persona persona2 = new persona
+            { 
+NombresCompletos = ""            
+            }
             Console.WriteLine("hola mundo");
 
                 Console.Read();
