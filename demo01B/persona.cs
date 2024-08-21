@@ -11,14 +11,13 @@ namespace demo01B
     {
         public persona(String nombre, string apellidos)
         {
-            nombre = nomnbre
-            apellidos = apellidos
-          }
+            apellidos = apellidos;
+        }
         public string nombre { get; set; }
         public string apellidos { get; set; }
         public int Edad { get; set; }
 
-        public string NombresCompletos { get; set; }
+        public string NombresCompletos { get; private set; }
 
         public string calcularEdad()
         {
@@ -29,9 +28,17 @@ namespace demo01B
 
             return mensaje;
         }
-        public string AsignarNombresCompleto();
-        {
-         retu
-};
-}
-}
+
+
+        triangulo2 tri
+           = new triangulo2()
+           {
+               A = 2,
+               B = 6,
+               c = 5
+           };
+        int perimetro = tri.CalcularPerimetro();
+
+        Console.;
+
+    }

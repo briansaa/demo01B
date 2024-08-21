@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace demo01B
 {
-    internal class estudiante
+    internal class triangulo2
     {
-        public string codigo { get; set; }
     }
 }
