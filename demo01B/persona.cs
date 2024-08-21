@@ -11,10 +11,9 @@ namespace demo01B
     {
         public persona(String nombre, string apellidos)
         {
-
-            Nombre = nomnbre
-            apellido = apellido
-                }
+            nombre = nomnbre
+            apellidos = apellidos
+          }
         public string nombre { get; set; }
         public string apellidos { get; set; }
         public int Edad { get; set; }
@@ -32,6 +31,7 @@ namespace demo01B
         }
         public string AsignarNombresCompleto();
         {
-         return {nombre } + {apellidos };
+         retu
+};
 }
 }

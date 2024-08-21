@@ -12,19 +12,39 @@ namespace demo01B
             
         {
             persona persona = new persona();
-            persona.nombre = "brian ";
-            persona.apellidos = "saavedra";
+            persona.nombre = "Brian";
+            persona.apellidos = "Saavedra";
             persona.AsignarNombresCompletos();
             Console.WriteLine(persona.NombresCompletos);
 
-            persona persona1 = new persona("viper", "saa");
+            persona persona1 = new persona("Viper", "Saa");
+
             persona persona2 = new persona
-            { 
-NombresCompletos = ""            
-            }
+          
+
+              estudiante estudiante = new estudiante
+              {
+
+                 nombres = "brian",
+                 apellidos = " saavedra",
+                  Nota = 20
+                    
+              };
+            /*
+             
+             
+             */
+
+
+
+
+
             Console.WriteLine("hola mundo");
 
                 Console.Read();
+
+
+      
         }
     }
 }
